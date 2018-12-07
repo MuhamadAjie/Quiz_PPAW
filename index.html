@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KALKULATOR SEDERHANA</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/javascript.js"></script>
+</head>
+<body>
+<center>
+	<form name="form1" action="#">
+		<div class="container">
+			<center><h3> KALKULATOR </h3></center>		
+			<div class="masukan">
+				<table>
+					<tr>
+						<td>inputan 1</td>
+						<td>:</td>
+						<td><input type="text" name="bil1" style="width: 168px" id="number1"/></td>
+					</tr>
+					<tr>
+						<td>inputan 2</td>
+						<td>:</td>
+						<td><input type="text" name="bil2" style="width: 168px" id="number2"/></td>
+					</tr>
+				</table>
+			</div>
+			<p><input type="button" name="Clear" value="CLEAR" style="width:163px" id="clear" onclick="resetForm();">
+			<input type="text" name="hasil" style="width: 173px" id="hasil" value="" disabled="true">	
+			<br><br>
+			<input type="button" name="Tambah" value="+" style="width: 60px" onclick="tambahkan();"/>
+			<input type="button" name="Kurang" value="-" style="width: 60px" onclick="kurangkan();"/>
+			<input type="button" name="Bagi" value=":" style="width: 60px" onclick="bagikan();"/>
+			<input type="button" name="Kali" value="X" style="width: 60px" onclick="kalikan();"/>
+		</div>
+	</form>
+</center>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.container {
+	width: 350px;
+	border:solid 1px #999999;
+	border-radius: 5px;
+	padding: 20px;
+
+}
+
+#if1 {
+	border-radius: 5px;
+}
+
+#clear {
+	border-radius: 5px;
+}
+
+#hasil {
+	border-radius: 5px;
+}
+
+.masukan {
+	border-radius: 5px;
+	border:solid 1px #999999;
+	width: 342px;
+}
+
+#hasil {
+	border-radius: 5px;
+}
